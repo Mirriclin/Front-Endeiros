@@ -1,6 +1,9 @@
 * {
+    /*o comando abaixo indica que o conteúdo da página vai até a borda*/
     box-sizing: border-box;
+    /*limita que não haverá nada além da linha*/
     outline: none;
+    /*recurso para transição de elementos*/
     transition: .1s;
 }
 
@@ -22,4 +25,15 @@ a {
 a:hover {
     color: orangered;
     text-decoration: underline;
+}
+
+body {
+
+background-image: url("../assets/images/bg01.jpg.jpg");
+background-color: rgb(18, 71, 31);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size:auto;
+
 }
